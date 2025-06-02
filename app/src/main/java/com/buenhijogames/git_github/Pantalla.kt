@@ -36,7 +36,7 @@ fun Pantalla(modifier: Modifier = Modifier) {
         modifier = modifier,
         topBar = {
             TopAppBar(
-                title = { Text(text = "Git y GitHub MERGED") },
+                title = { Text(text = "Git desde GitHub ") },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.secondaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.onSecondaryContainer
